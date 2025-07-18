@@ -89,7 +89,7 @@ class MainMenuState extends MusicBeatState
 {
 	public static final MAIN_MENU_MUSIC_LOOP_START_TIME:Float = 167185;
 	public static final MAIN_MENU_MUSIC_LOOP_END_TIME:Float = 297670;
-	public static var psychEngineVersion:String = '0.7.3'; // This is also used for Discord RPC
+	public static var psychEngineVersion:String = '1.0.4'; // This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
 	public static var instance:MainMenuState = null;
