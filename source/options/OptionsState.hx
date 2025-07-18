@@ -29,6 +29,8 @@ class OptionsState extends MusicBeatState
 				openSubState(new options.GameplaySettingsSubState());
 			case 'Adjust Delay and Combo':
 				MusicBeatState.switchState(new options.NoteOffsetState());
+			case 'Language':
+				openSubState(new options.LanguageSubState());
 			case 'Reset Progression':
 				var substate = new WiiOptionSelectSubstate("Are You Sure?", ["Reset", "Cancel"], "Cancel", function(optionName)
 				{
