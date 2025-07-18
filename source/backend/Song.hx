@@ -32,6 +32,17 @@ typedef SwagSong =
 	@:optional var splashSkin:String;
 }
 
+typedef SwagSection =
+{
+	var sectionNotes:Array<Dynamic>;
+	var sectionBeats:Float;
+	var mustHitSection:Bool;
+	@:optional var altAnim:Bool;
+	@:optional var gfSection:Bool;
+	@:optional var bpm:Float;
+	@:optional var changeBPM:Bool;
+}
+
 class Song
 {
 	public var song:String;
